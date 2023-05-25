@@ -1,14 +1,13 @@
-function Alumno({nombre, apellido, esMiembro}){
+function Alumno({nombre, esMiembro}){
     if(esMiembro){
         return(
             <div className="alumno">
                 <div className="row">
                     <div className="col">
-                        {nombre}
-                        {apellido}
+                        <p>{nombre}</p>
                     </div>
                     <div className="col d-flex justify-content-end">
-                        <p className="noMiembro">* Es miembro del grupo</p>
+                        <p className="esMiembro">* Es miembro del grupo</p>
                     </div>
                 </div>
             </div>
@@ -16,8 +15,7 @@ function Alumno({nombre, apellido, esMiembro}){
     }
     return(
         <div className="alumno">
-            {nombre}
-            {apellido}
+            <p>{nombre}</p>
         </div>
     );
 }

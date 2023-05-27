@@ -8,7 +8,7 @@
                         'contenido lateral'
                         'footer footer';
   grid-template-rows: 10% 10% auto 10%;
-  grid-template-columns: 80% auto;
+  grid-template-columns: 70% auto;
 }
 
 .caja{

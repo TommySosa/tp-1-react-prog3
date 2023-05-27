@@ -20,3 +20,10 @@ body{
 p{
   display: inline;
 }
+a{
+  color: black;
+}
+a:active{
+  color: black;
+}
+

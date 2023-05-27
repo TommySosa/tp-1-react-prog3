@@ -3,11 +3,11 @@ function Alumno({nombre, esMiembro}){
         return(
             <div className="alumno">
                 <div className="row">
-                    <div className="col">
+                    <div className="col-6">
                         <p>{nombre}</p>
                     </div>
                     <div className="col d-flex justify-content-end">
-                        <p className="esMiembro">* Es miembro del grupo</p>
+                        <p className="esMiembro">✓ Es miembro del grupo</p>
                     </div>
                 </div>
             </div>
